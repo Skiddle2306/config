@@ -1,0 +1,80 @@
+
+@import '../../.cache/wal/colors-waybar.css';
+ * {
+	border : none;
+	border-radius : 15px;
+	min-height : 0;
+	margin : 0;
+	padding : 0;
+}
+#waybar{
+	opacity : 1;
+	background-color : transparent;
+	color : @color1;
+	font-size : 14px;
+	font-family : "Hack Nerd Font"
+}
+#clock{
+	padding :  7px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#window{
+	padding :  7px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#workspaces{
+	padding :  8px;
+	padding-right : 10px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#workspaces button{
+	color : @color2;
+}
+#workspaces button:hover{
+	color : @color4;
+}
+#workspaces button.active{
+	color : @color15;
+}
+#network{
+	padding :  7px;
+	padding-right: 11px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#pulseaudio{
+	padding :  7px;
+	padding-right : 11px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#battery{
+	padding :  7px;
+	padding-right : 10px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+#custom-powermenu{
+	padding-left : 7px;
+	padding-right: 11px;
+	background-color : @background;
+	margin : 5;
+	border : 0px solid ;
+	opacity : 0.8
+}
+
