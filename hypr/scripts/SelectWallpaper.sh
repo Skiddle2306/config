@@ -1,8 +1,3 @@
-# Set up trap to handle script exit
-cleanup() {
-    echo "Cleaning up..."
-    exit 0
-}
 i=0
 dir=/home/Ayush/Wallpapers/
 for wallpaper in /home/Ayush/Wallpapers/*
