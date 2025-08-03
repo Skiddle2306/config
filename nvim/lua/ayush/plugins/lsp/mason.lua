@@ -27,7 +27,7 @@ return {
         "cssls",
         "lua_ls",
          "jdtls",
-         "ast-grep",
+         "pyright",
 
          },
     })
